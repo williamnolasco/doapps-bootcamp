@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Cursos</title>
+    <link rel="stylesheet" href="./client/js/validationform/validationEngine.jquery.css">
+    <link rel="stylesheet" type="text/css" href="./client/css/icons.css">
+    <link rel="stylesheet" type="text/css" href="./client/css/header.css">
+    <link rel="stylesheet" type="text/css" href="./client/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="./client/css/banner.css">
+    <link rel="stylesheet" type="text/css" href="./client/css/courses.css">
+    <link rel="stylesheet" type="text/css" href="/client/css/sweetalert.min.css">
+  </head>
+  <body class="body-courses">
+    <header>
+      <div class="wancho"><a class="link-logo" href="./"><i class="icon-logo_header"></i></a><a class="link-logo-mobile" href="./"><img src="./client/img/header/logo-mobile.png" width="43" height="43" alt="DoApps"></a><i class="icon-menu2 open-menu-mobile"></i>
+        <ul class="list-items"><span class="movable-bar"></span>
+          <li><a class="item-link" href="servicios.html">Servicios</a></li>
+          <li><a class="item-link" href="casos-de-exito.html">Casos de Éxito</a></li>
+          <li><a class="item-link" href="productos.html">Productos</a></li>
+          <li><a class="item-link" href="equipo.html">Equipo</a></li>
+          <li><a class="item-link" href="blog">Blog</a></li>
+          <li><a class="item-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="courses-banner">
+      <div class="wancho">
+        <div class="courses-date">
+          <h4>iOS Developer Bootcamp</h4>
+          <h5>Fecha de inicio</h5>
+          <h6>02 de Junio</h6>
+        </div>
+        <!-- <form class="courses-form">
+          <h5>Inscríbete</h5>
+          <div class="input-container">
+            <input class="form-input" id="name">
+            <div class="row-input-content"><img src="./client/img/footer/input-name.png" width="38" height="32">
+              <label for="name">¿Cúal es tu nombre?</label>
+            </div><span class="lively-bar"></span>
+          </div>
+          <div class="input-container">
+            <input class="form-input" id="name">
+            <div class="row-input-content"><img src="./client/img/footer/input-email.png" width="38" height="32">
+              <label for="name">¿Cúal es tu correo?</label>
+            </div><span class="lively-bar"></span>
+          </div>
+          <div class="input-container">
+            <input class="form-input" id="name">
+            <div class="row-input-content"><img src="./client/img/footer/input-tel.png" width="38" height="32">
+              <label for="name">¿Cúal es tu teléfono?</label>
+            </div><span class="lively-bar"></span>
+          </div>
+          <button class="g-btn btn-green1">Comienza ahora</button>
+        </form> -->
+      </div>
+    </section>
+    <!-- <section class="courses-objectives">
+      <div class="wancho">
+        <div class="g-title">
+          <h5>Los<span>Objetivos</span></h5>
+        </div>
+        <div class="courses-objectives-list">
+          <div class="courses-objectives-item">
+            <figure><img src="./client/img/courses/courses-check.png" width="27px" height="27px"></figure>
+            <p>Aprender las bases de la programación de aplicaciones nativas para iOS en Objective C utilizando como herramienta Xcode.</p>
+          </div>
+          <div class="courses-objectives-item">
+            <figure><img src="./client/img/courses/courses-check.png" width="27px" height="27px"></figure>
+            <p>Aprender las bases de la programación de aplicaciones nativas para iOS en Objective C utilizando como herramienta Xcode.</p>
+          </div>
+          <div class="courses-objectives-item">
+            <figure><img src="./client/img/courses/courses-check.png" width="27px" height="27px"></figure>
+            <p>Aprender las bases de la programación de aplicaciones nativas para iOS en Objective C utilizando como herramienta Xcode.</p>
+          </div>
+          <div class="courses-objectives-item">
+            <figure><img src="./client/img/courses/courses-check.png" width="27px" height="27px"></figure>
+            <p>Aprender las bases de la programación de aplicaciones nativas para iOS en Objective C utilizando como herramienta Xcode.</p>
+          </div>
+          <div class="courses-objectives-item">
+            <figure><img src="./client/img/courses/courses-check.png" width="27px" height="27px"></figure>
+            <p>Aprender las bases de la programación de aplicaciones nativas para iOS en Objective C utilizando como herramienta Xcode.</p>
+          </div>
+          <div class="courses-objectives-item">
+            <figure><img src="./client/img/courses/courses-check.png" width="27px" height="27px"></figure>
+            <p>Aprender las bases de la programación de aplicaciones nativas para iOS en Objective C utilizando como herramienta Xcode.</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section class="courses-temary">
+      <div class="wancho">
+        <div class="g-title">
+          <h5>El<span>Temario</span></h5>
+        </div>
+        <div class="courses-temary-row">
+          <div class="courses-temary-item">
+            <div class="courses-temary-item-top">
+              <figure><img src="./client/img/courses/courses-temary-icon1.png" width="40" height="40"></figure>
+              <h5>MÓDULO 1<span><i class="icon-angle-double-down"></i></span></h5>
+            </div>
+            <div class="courses-temary-item-bottom">
+              <ul>
+                <li class="courses-temary-item-li">Git</li>
+                <li class="courses-temary-item-li">Programación orientada a objetos</li>
+                <li class="courses-temary-item-li">MVC</li>
+                <li class="courses-temary-item-li">MVP</li>
+                <li class="courses-temary-item-li">Swift 4</li>
+              </ul>
+            </div>
+          </div>
+          <div class="courses-temary-item">
+            <div class="courses-temary-item-top">
+              <figure><img src="./client/img/courses/courses-temary-icon2.png" width="40" height="40"></figure>
+              <h5>MÓDULO 2<span><i class="icon-angle-double-down"></i></span></h5>
+            </div>
+            <div class="courses-temary-item-bottom">
+              <ul>
+                <li class="courses-temary-item-li">Playground</li>
+                <li class="courses-temary-item-li">View Controllers</li>
+                <li class="courses-temary-item-li">Storyboards</li>
+                <li class="courses-temary-item-li">Constraints: Autolayout y Size Classes</li>
+                <li class="courses-temary-item-li">Cocoa Pods</li>
+              </ul>
+            </div>
+          </div>
+          <div class="courses-temary-item">
+            <div class="courses-temary-item-top">
+              <figure><img src="./client/img/courses/courses-temary-icon3.png" width="40" height="40"></figure>
+              <h5>MÓDULO 3<span><i class="icon-angle-double-down"></i></span></h5>
+            </div>
+            <div class="courses-temary-item-bottom">
+              <ul>
+                <li class="courses-temary-item-li">Core Data</li>
+                <li class="courses-temary-item-li">GPS y servicios de localización</li>
+                <li class="courses-temary-item-li">Cámara</li>
+                <li class="courses-temary-item-li">Firebase</li>
+                <li class="courses-temary-item-li">APIs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="courses-teacher">
+      <div class="wancho">
+        <div class="g-title">
+          <h5>Los<span>Profesores</span></h5>
+        </div>
+        <div class="courses-teacher-row">
+          <div class="courses-teacher-item">
+            <figure><img src="./client/img/courses/courses-teacher.png" width="166" height="166"></figure>
+            <div class="courses-teacher-description">
+              <h5>Jonathan Nolasco</h5>
+              <p>Co-founder in DoApps. Tech Entrepenur, Android & iOs developer -<a href="#">http://www.doapps.me/</a></p>
+            </div>
+          </div>
+          <div class="courses-teacher-item">
+            <figure><img src="./client/img/courses/courses-teacher.png" width="166" height="166"></figure>
+            <div class="courses-teacher-description">
+              <h5>Jonathan Nolasco</h5>
+              <p>Co-founder in DoApps. Tech Entrepenur, Android & iOs developer -<a href="#">http://www.doapps.me/</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section class="courses-objectives">
+      <div class="wancho">
+        <div class="g-title">
+          <h5>¿Qué<span>Obtienes?</span></h5>
+        </div>
+        <div class="courses-feature-row">
+          <div class="courses-feature-item">
+            <figure><img src="./client/img/courses/courses-feature-icon1.png" width="88px" height="75px"></figure>
+            <h6>Talleres prácticos</h6>
+            <p>Estarás desarrollando aplicaciones desde el primer día</p>
+          </div>
+          <div class="courses-feature-item">
+            <figure><img src="./client/img/courses/courses-feature-icon2.png" width="88px" height="75px"></figure>
+            <h6>Asesoría requerida</h6>
+            <p>Contarás con el apoyo de un mentor de manera presencial y virtual</p>
+          </div>
+          <div class="courses-feature-item">
+            <figure><img src="./client/img/courses/courses-feature-icon3.png" width="88px" height="75px"></figure>
+            <h6>Certificación del bootcamp</h6>
+            <p>Otorgamos un certificado a nombre de la empresa por la participación en el Bootcamp</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="courses-cost">
+      <div class="wancho">
+        <div class="g-title">
+          <h5>¿Cuánto<span>Cuesta?</span></h5>
+        </div>
+        <div class="courses-cost-row">
+          <div class="courses-cost-item">
+            <!-- <div class="courses-cost-top">
+              <h6>Básico</h6>
+            </div> -->
+            <div class="courses-cost-middle">
+              <h4>00</h4>
+              <!-- <h6>Anual</h6> -->
+            </div>
+            <div class="courses-cost-bottom">
+              <ul>
+                <li class="courses-cost-bottom-li">
+                  <figure><img src="./client/img/courses/courses-check.png" width="27" height="27"></figure>
+                  <h6>Talleres prácticos</h6>
+                </li>
+                <li class="courses-cost-bottom-li">
+                  <figure><img src="./client/img/courses/courses-check.png" width="27" height="27"></figure>
+                  <h6>Asesoría presencial y virtual</h6>
+                </li>
+                <li class="courses-cost-bottom-li">
+                  <figure><img src="./client/img/courses/courses-check.png" width="27" height="27"></figure>
+                  <h6>Certificación</h6>
+                </li>
+              </ul><a class="g-btn btn-green1" href="#">Inscríbete</a>
+            </div>
+          </div>
+          <!-- <div class="courses-cost-item">
+            <div class="courses-cost-top">
+              <h6>Avanzado</h6>
+            </div>
+            <div class="courses-cost-middle">
+              <h4>119</h4>
+              <h6>Anual</h6>
+            </div>
+            <div class="courses-cost-bottom">
+              <ul>
+                <li class="courses-cost-bottom-li">
+                  <figure><img src="./client/img/courses/courses-check.png" width="27" height="27"></figure>
+                  <h6>Grabaciones de clase</h6>
+                </li>
+                <li class="courses-cost-bottom-li">
+                  <figure><img src="./client/img/courses/courses-check.png" width="27" height="27"></figure>
+                  <h6>Asesoría por mensaje y telefono</h6>
+                </li>
+                <li class="courses-cost-bottom-li">
+                  <figure><img src="./client/img/courses/courses-check.png" width="27" height="27"></figure>
+                  <h6>70 videos disponibles</h6>
+                </li>
+              </ul><a class="g-btn btn-green1" href="#">Pagar</a>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <div class="footer-top">
+      <div class="wancho">
+        <div class="g-title">
+          <h5>Habla con<span>nosotros</span></h5>
+        </div>
+        <form class="footer-form">
+          <div class="input-container">
+            <input class="validate[required, custom[onlyLetterSp]] form-input" id="name">
+            <div class="row-input-content"><img src="./client/img/footer/input-name.png" width="38" height="32">
+              <label for="name">¿Cúal es tu nombre?</label>
+            </div><span class="lively-bar"></span>
+          </div>
+          <div class="input-container">
+            <input class="validate[required,custom[email]] form-input" id="email">
+            <div class="row-input-content"><img src="./client/img/footer/input-email.png" width="38" height="32">
+              <label for="email">¿Cúal es tu correo?</label>
+            </div><span class="lively-bar"></span>
+          </div>
+          <div class="input-container">
+            <input class="validate[required, custom[onlyNumberSp]] form-input" id="tel">
+            <div class="row-input-content"><img src="./client/img/footer/input-tel.png" width="38" height="32">
+              <label for="tel">¿Cúal es tu teléfono?</label>
+            </div><span class="lively-bar"></span>
+          </div>
+          <div class="input-container select-container">
+            <select class="validate[required] form-select" id="product">
+              <option value="">¿Qué eres?</option>
+              <option value="empresa">Empresa</option>
+              <option value="emprendedor">Emprendedor</option>
+            </select>
+            <div class="row-input-content row-select-content"><img src="./client/img/footer/input-product.png" width="38" height="32">
+              <!--label(for='product') ¿Qué eres?-->
+              <!--
+              ul.ul-form-select
+              	li Empresa
+              	li Emprendedor
+              -->
+            </div><span class="lively-bar"></span>
+          </div>
+          <div class="input-container textarea-container">
+            <textarea class="validate[required] form-input" id="write"></textarea>
+            <div class="row-input-content"><img src="./client/img/footer/input-write.png" width="38" height="32">
+              <label for="write">Explícanos tu idea, proyecto, empresa o mejora para tu negocio.</label>
+            </div><span class="lively-bar"></span>
+          </div>
+          <button class="g-btn btn-transparent-white button-form" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <footer class="footer-bottom">
+      <div class="wancho">
+        <img class="logo-footer" src="./client/img/footer/logo-footer.png" width="125" height="125">
+        <div class="footer-bottom-left">
+          <div class="footer-item">
+            <i class="icon-footer-ubication"></i>
+            <h6>Av. Guardia Civil Nº 1321 Of. 802. (Edificio Conexión Lima) / Surquillo</h6>
+          </div>
+          <div class="footer-item">
+            <i class="icon-footer-mail"></i>
+            <a href="mailto:hola@doapps.me">hola@doapps.me</a>
+          </div>
+          <div class="footer-item">
+            <i class="icon-footer-telefono"></i>
+            <div class="footer-row-tel">
+              <a href="tel:014884177">(+51) 488 4177</a>
+              <span>/</span>
+              <a href="tel:986075524">986 075 524</a>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <h5>&copy 2017 DoApps S.A.C Todos los derechos reservados</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./client/js/jquery1.8.3.min.js"></script>
+    <script src="./client/js/validationform/jquery.validationEngine.min.js"></script>
+    <script src="./client/js/validationform/jquery.validationEngine-es.min.js"></script>
+    <script src="./client/js/header.js"></script>
+    <script src="./client/js/courses.js"></script>
+    <script src="./client/js/sweetalert.min.js"></script>
+  </body>
+</html>
